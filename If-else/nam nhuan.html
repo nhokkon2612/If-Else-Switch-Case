@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính Năm Nhuận </title>
+</head>
+<body>
+    <script>
+        let a=+prompt("Nhập năm cần kiểm tra")
+        if (a%4==0){
+            if (a%100) {
+                if (a % 400) {
+                    alert(a+ "Là năm nhuận")
+                } else {
+                    alert(a + "Không là năm nhuận")
+                }
+            } else {
+                alert(a+ "Là năm nhuận")
+            }
+        } else{
+            alert(a+  "Không là năm nhuận")
+        }
+    </script>
+</body>
+</html>
